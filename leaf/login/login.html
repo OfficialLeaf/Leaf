@@ -1,0 +1,49 @@
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="imagem/png" href="../imagens/icon-folha.png" />
+    <title>Leaf</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container a-container" id="a-container">
+        <form class="form" id="a-form" method="" action="">
+          <h2 class="form_title title">Criação de Conta</h2>
+          <span class="form__span">Utilize seu email</span>
+          <input class="form__input" type="text" placeholder="Nome">
+          <input class="form__input" type="text" placeholder="Email">
+          <input class="form__input" type="password" placeholder="Senha">
+          <button class="form__button button submit">Criar</button>
+        </form>
+      </div>
+      <div class="container b-container" id="b-container">
+        <form class="form" id="b-form" method="" action="">
+          <h2 class="form_title title">Bem-vindo!</h2>
+          <input class="form__input" type="text" placeholder="Email">
+          <input class="form__input" type="password" placeholder="Senha"><a class="form__link">Esqueceu a senha?</a>
+          <button class="form__button button submit submit-login">Entrar</button>
+        </form>
+      </div>
+      <div class="switch" id="switch-cnt">
+        <div class="switch__circle"><img src="../imagens/icon-folha.png" alt="folha"></div>
+        <div class="switch__circle switch__circle--t"><img src="../imagens/icon-folha.png" alt="folha"></div>
+        <div class="switch__container" id="switch-c1">
+          <h2 class="switch__title title">Bem-vindo!</h2>
+          <p class="switch__description description">Já faz parte do time?</p>
+          <button class="switch__button button switch-btn">Entrar</button>
+        </div>
+        <div class="switch__container is-hidden" id="switch-c2">
+          <h2 class="switch__title title">Novo por aqui?</h2>
+          <p class="switch__description description">Insira seus dados e inicie sua jornada!</p>
+          <button class="switch__button button switch-btn">Criar Conta</button>
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
+
+<a href="../profile/profile.html"></a>

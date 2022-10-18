@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #F8F9FA;
+    overflow-x: hidden;
+}
+main{
+    margin-bottom: 10%;
+}
+nav{
+    font-weight: bold;
+    color: #859b2f;
+}
+.section_main{
+    background-image: url("https://images.pexels.com/photos/1028599/pexels-photo-1028599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    padding: 10% 0 12% 13%;
+}
+
+.img_main{
+    position: absolute;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.section_main_2{
+    color: #859b2f;
+    margin-bottom: 10%;
+}
+
+.cards_div{
+    margin: 0 10% 0 10%;
+}
+.card_inicial{
+    width: 30%; background-color: rgba(0,0,0,0); border: none; color: #859b2f;
+}
+.card_oqf{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    
+}
+.card_imgs{
+    width: 20%;
+    height: 20%;
+}
+footer{
+    width: 100%;
+    height: 20%;
+    background-color: #aaa;
+    text-align: center;
+    padding-top: 4%;
+    color: #F8F9FA
+}
+.carrossel{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5%;
+}
+.paragrafo_final{
+    width: 40%;
+    text-align: center;
+    color: #859b2f;
+    margin: 7% 0 0 5%;
+}
+
+@media only screen and (max-width: 585px) {
+    .link_Logo{
+        width: 50%;
+    }
+    .imagem{
+        width: 25%;
+    }
+    .card_responsivo{
+        width: 200%;
+        color: black
+    }
+    .section_main{
+        background-position: center top;
+    }
+    footer{
+        height: 10%;
+    }
+    .carrossel{
+        width: 100%;
+    }
+    .paragrafo_final{
+        width: 90%;
+    }
+    .carroEH1{
+        display: flex;
+        flex-direction: column;
+    }
+  }
